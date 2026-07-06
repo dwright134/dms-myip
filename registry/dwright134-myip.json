@@ -1,0 +1,13 @@
+{
+    "id": "myip",
+    "name": "My IP",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/dwright134/dms-myip",
+    "author": "dwright134",
+    "description": "Launcher plugin to view and copy your private, public, and Tailscale IPs (v4 and v6) along with your Tailscale MagicDNS hostname",
+    "dependencies": ["curl"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/dwright134/dms-myip/main/docs/myip-launcher.png"
+}
